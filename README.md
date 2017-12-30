@@ -1,7 +1,7 @@
 # WaveNet-Audio
 Training and generating with a Tensorflow version of Wavenet for audio files
 
-This work was part of the CADL project set to explore a tensorflow version of Wavenet. I explored the concepts of *transfer learning* and training a new model from scratch. Time permitting I'll also perform visualization of the latent embedding space of the encoded audio. 
+This work was part of the CADL project set to explore a tensorflow version of Wavenet. I explored the concepts of *transfer learning* and training a new model from scratch. Time permitting I'll train these models on AWS to take them to a better performance level. 
 
 ### The Data
 I chose to start with the open source [wavenet code by Igor Babuschkin](https://github.com/ibab/tensorflow-wavenet) which builds global conditioning. See his repository for details on how to train and generate using this model. This particular implementation trains on audio wav files and defaults to the  [VCTK corpus](http://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html) corpus of multiple speakers of English with varying accents.  
