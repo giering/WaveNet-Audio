@@ -1,1 +1,6 @@
+In this folder the filenames refer to:
 
+speaker - trained on the VCTK speech corpus
+blues - Are experiments of transferring blues music on top of the speech corpus
+music - refers to the model trained from scratch on music genres
+primed - means that the generator file was initialized with an existing wav file.
