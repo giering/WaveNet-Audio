@@ -20,4 +20,4 @@ What I chose to explore for this section was how swapping out one of the speaker
 Next I trained a model from scratch extending what I did in the transfer learning section by removing all speakers and replacing them with wav files corresponding to music genres. The model was trained from scratch with conditioning. Output audio files can be generated without conditioning (general audio model) or in the style of a particular genre.  
 adapted the GTZAN data set into the same format as the VCTK-Corpus which the Wavenet model I was using is hardcoded to. This required some tedious renaming, format conversions and organizing into the correct folder structures. 
 
-Included in the **Generated-audio** folder are examples generated without conditioning, with conditioning. I've also primed the conditioned audio files with assorted .wav files.
+Included in the [Generated-audio](https://github.com/giering/WaveNet-Audio/tree/master/Generated-audio) folder are examples generated without conditioning, with conditioning. I've also primed the conditioned audio files with assorted .wav files.
